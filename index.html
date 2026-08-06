@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HIS DRINK - Gen Z Spatial Soda Experience</title>
+  <meta name="description" content="HIS DRINK - 100% Gen Z spatial 3D soda experience with Y2K cyber aesthetic and interactive 3D cans." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <!-- Ambient Morphing Gradient Background -->
+  <div id="ambient-bg" class="ambient-bg"></div>
+
+  <!-- WebGL Spatial 3D Canvas -->
+  <div id="canvas-container" class="canvas-container"></div>
+
+  <!-- Magnetic Glassmorphic Pointer Badge -->
+  <div id="cursor-badge" class="cursor-badge">VIEW VIBE ✨</div>
+
+  <!-- Minimal Apple-Style Navigation Bar -->
+  <header class="apple-navbar">
+    <div class="brand">
+      <span class="brand-name">HIS<span class="brand-accent">DRINK</span></span>
+    </div>
+    <div class="edition-indicator">
+      <span id="edition-counter">01</span> <span class="dim">/ 07</span>
+    </div>
+  </header>
+
+  <!-- Gen Z Spatial Hero Content Overlay -->
+  <main class="hero-overlay">
+    <div class="hero-card">
+      <div id="flavor-tag" class="tag-pill">✨ MAIN CHARACTER ENERGY ✨</div>
+      <h1 id="flavor-title" class="hero-title">NEON <span class="highlight">HIBISCUS</span></h1>
+      <p id="flavor-subtitle" class="hero-subtitle">CORAL PINK & SUNBURST • MAIN CHARACTER VIBE</p>
+
+      <!-- Horizontal Clean Stats Pills -->
+      <div class="specs-pills">
+        <div class="spec-pill">
+          <span class="pill-label">SUGAR</span>
+          <span id="spec-sugar" class="pill-val">0g</span>
+        </div>
+        <div class="spec-pill">
+          <span class="pill-label">CAFFEINE</span>
+          <span id="spec-caffeine" class="pill-val">120mg</span>
+        </div>
+        <div class="spec-pill">
+          <span class="pill-label">JUICE</span>
+          <span id="spec-juice" class="pill-val">20% Peach</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gen Z Spatial Gesture Hint -->
+    <div class="spatial-hint">
+      <span class="sparkle-icon">✨</span>
+      <span>Tap any HIS DRINK 3D can for vibe check • Drag to rotate 360°</span>
+    </div>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
